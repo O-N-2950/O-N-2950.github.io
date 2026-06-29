@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="Marche Gourmande">
+  <circle cx="50" cy="50" r="50" fill="#E6CA96"/>
+  <circle cx="50" cy="50" r="40" fill="#E04E3C"/>
+  <g fill="#FAF3E6">
+    <!-- fourchette : 3 dents + corps -->
+    <rect x="36.5" y="27" width="4.2" height="20" rx="2.1"/>
+    <rect x="47.9" y="27" width="4.2" height="20" rx="2.1"/>
+    <rect x="59.3" y="27" width="4.2" height="20" rx="2.1"/>
+    <rect x="36.5" y="44" width="27" height="4.6" rx="2.3"/>
+    <rect x="47.4" y="46" width="5.2" height="28" rx="2.6"/>
+  </g>
+</svg>
