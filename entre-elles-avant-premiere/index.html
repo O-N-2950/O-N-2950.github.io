@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="fr-CH">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#faf6f0" />
+  <meta name="description" content="Au fil des mots — un projet de rencontres et d'ateliers d'expression pour les femmes à Cornol, dans un esprit d'écoute et de bienveillance." />
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: https://d2ol7oe51mr4n9.cloudfront.net; style-src 'unsafe-inline'; script-src 'unsafe-inline'; font-src 'none'; connect-src 'none'; form-action 'none'; base-uri 'none'" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Entre Elles · Au fil des mots" />
+  <meta property="og:description" content="Des rencontres gratuites autour de l'expression et du partage, à Cornol dans le Jura." />
+  <meta property="og:image" content="https://d2ol7oe51mr4n9.cloudfront.net/user_37QXsLEYBdKiB8iG8gU5HGV9RFV/3c093e51-5cfc-476b-8be3-fd4338f030f6.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Entre Elles · Au fil des mots — avant-première</title>
+  <style>
+    :root { --paper: #faf6f0; --white: #fffdf9; --ink: #422b32; --berry: #723247; --berry-dark: #592439; --rose: #cf9286; --sand: #f2dfd2; --subtle: #786b6a; --olive: #84876d; --line: #e8d9d0; --shadow: 0 18px 55px rgba(86,48,52,.095); --serif: Georgia, 'Times New Roman', serif; --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top: 100px; }
+    body { margin:0; font-family: var(--sans); background:var(--paper); color:var(--ink); -webkit-font-smoothing: antialiased; }
+    button, a { -webkit-tap-highlight-color:transparent; }
+    a { color:inherit; }
+    .skip { position:absolute; left:16px; top:-80px; background:var(--berry); color:white; z-index:1000; padding:12px 16px; border-radius:10px; }
+    .skip:focus { top:10px; }
+    :focus-visible { outline:3px solid #ab6357; outline-offset:4px; }
+    .preview-bar { background:#693347; color:#fff8f4; text-align:center; font-size:11px; line-height:1.4; letter-spacing:.075em; font-weight:650; padding:7px 18px; }
+    .preview-bar span { opacity:.78; font-weight:450; letter-spacing:0; }
+    .container { width:min(1160px,calc(100% - 64px)); margin-inline:auto; }
+    .site-head { position:sticky; top:0; z-index:30; background:rgba(250,246,240,.96); backdrop-filter: blur(15px); -webkit-backdrop-filter:blur(15px); border-bottom:1px solid rgba(120,65,73,.10); }
+    .head-row { height:85px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0; }
+    .brand-mark { width:43px; height:43px; display:grid; place-items:center; border-radius:50%; background:#f2e3d8; border:1px solid #e6cabf; }
+    .brand-mark svg { width:25px; height:25px; }
+    .brand-main { font: italic 30px/1 var(--serif); letter-spacing:-1.2px; color:var(--berry); display:block; }
+    .brand-sub { display:block; margin-top:6px; font-size:9px; color:#916b6d; letter-spacing:.26em; font-weight:700; }
+    .nav-links { display:flex; align-items:center; gap:31px; }
+    .nav-links a:not(.mini-button) { text-decoration:none; font-weight:550; font-size:13px; color:#5b4748; transition:color .2s; }
+    .nav-links a:hover { color:var(--berry); }
+    .mini-button { padding:12px 18px; border-radius:28px; background:var(--berry); color:white; text-decoration:none; font-size:12px; font-weight:700; box-shadow:0 5px 15px rgba(86,30,51,.13); }
+    .menu-toggle { display:none; appearance:none; border:1px solid var(--line); background:#fffaf6; border-radius:11px; padding:10px; width:44px; height:44px; color:var(--berry); }
+    .menu-toggle svg { width:22px; height:22px; }
+    .hero { position:relative; isolation:isolate; overflow:hidden; padding:80px 0 95px; }
+    .hero::before { content:''; position:absolute; z-index:-1; width:580px; height:580px; top:-400px; left:-140px; border-radius:50%; background:#f2ded5; filter:blur(80px); opacity:.64; }
+    .hero-grid { display:grid; grid-template-columns:1fr .9fr; align-items:center; gap:70px; }
+    .kicker { color:#9a6366; font-size:11px; font-weight:760; letter-spacing:.22em; text-transform:uppercase; display:flex; gap:12px; align-items:center; margin:0 0 22px; }
+    .kicker::before { content:''; display:block; width:30px; height:1px; background:#b48c7c; }
+    h1,h2,h3,p { margin-top:0; }
+    .hero h1 { font:normal clamp(3.45rem,5.8vw,5.7rem)/1.075 var(--serif); letter-spacing:-.054em; margin-bottom:25px; }
+    .hero h1 em { font-style:italic; color:var(--berry); font-weight:400; }
+    .hero-lead { max-width:490px; color:#685454; font-size:18px; line-height:1.82; margin-bottom:30px; }
+    .hero-lead strong { font-weight:650; color:#503e3d; }
+    .tagline { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:32px; }
+    .tag { background:#f2e5db; border:1px solid #ebd5c8; border-radius:999px; padding:9px 13px; color:#804e53; font-size:11px; font-weight:720; letter-spacing:.05em; }
+    .actions { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+    .button { display:inline-flex; justify-content:center; align-items:center; gap:12px; border-radius:100px; padding:17px 24px; text-decoration:none; font-size:13px; font-weight:710; transition:transform .2s,background .2s,box-shadow .2s; border:1px solid transparent; cursor:pointer; font-family:inherit; }
+    .button:hover { transform:translateY(-2px); }
+    .button.primary { background:var(--berry); color:white; box-shadow:0 10px 22px rgba(114,50,71,.20); }
+    .button.primary:hover { background:var(--berry-dark); box-shadow:0 14px 30px rgba(114,50,71,.22); }
+    .button.secondary { background:transparent; border-color:#d5bbae; color:var(--berry); }
+    .button.secondary:hover { background:#f4e6de; }
+    .button svg { width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:1.7; }
+    .hero-right { position:relative; }
+    .art-frame { border:12px solid rgba(255,253,249,.94); border-radius:260px 260px 25px 25px; overflow:hidden; height:575px; box-shadow:0 28px 80px rgba(102,63,54,.20); background:#f1c8a7; }
+    .art-frame svg { width:100%; height:100%; display:block; }
+    .art-note { position:absolute; bottom:20px; left:-43px; background:#fffdf9; border-radius:15px; padding:16px 23px; box-shadow:var(--shadow); transform:rotate(-4deg); max-width:215px; }
+    .art-note::before { content:'♡'; font-size:27px; color:#a45b67; position:absolute; right:14px; top:6px; }
+    .art-note span { display:block; font:italic 20px/1.35 var(--serif); padding-right:17px; color:var(--berry); }
+    .art-note small { display:block; font-size:10px; margin-top:8px; color:#88726e; font-weight:650; }
+    .art-stamp { position:absolute; top:55px; right:-36px; display:grid; place-items:center; width:108px; height:108px; border-radius:50%; background:#fdf8ed; color:#905c54; box-shadow:0 8px 25px rgba(87,40,44,.12); transform:rotate(11deg); text-align:center; font:italic 15px/1.25 var(--serif); padding:12px; border:1px solid #ddc6b0; }
+    .tiny-rule { display:flex; align-items:center; justify-content:center; gap:15px; color:#a16b70; font:italic 18px var(--serif); }
+    .tiny-rule::before,.tiny-rule::after { content:''; height:1px; width:60px; background:#cfaea2; }
+    .statement { background:#fffdf9; border-top:1px solid #eee1d8; border-bottom:1px solid #eee1d8; padding:75px 0 74px; }
+    .statement-inner { max-width:770px; margin-inline:auto; text-align:center; }
+    .eyebrow { color:#ac7671; font-size:11px; font-weight:800; letter-spacing:.23em; text-transform:uppercase; margin-bottom:20px; }
+    .statement blockquote { margin:0 auto 20px; font:italic clamp(2rem,4vw,3.55rem)/1.36 var(--serif); color:var(--berry); letter-spacing:-.022em; }
+    .statement p { font-size:15px; line-height:1.85; color:var(--subtle); max-width:575px; margin:0 auto; }
+    .section { padding:112px 0; }
+    .section-head { margin:0 auto 42px; max-width:685px; text-align:center; }
+    .section-head h2,.split h2 { font:normal clamp(2.6rem,4.8vw,4.2rem)/1.13 var(--serif); letter-spacing:-.043em; margin-bottom:20px; }
+    .section-head h2 em,.split h2 em { color:var(--berry); font-weight:400; }
+    .section-head p { font-size:15px; line-height:1.85; color:var(--subtle); margin:0; }
+    .values { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+    .value { background:#fffdf9; border:1px solid #efe0d6; border-radius:19px; padding:36px 33px 31px; box-shadow:0 7px 25px rgba(80,48,43,.035); }
+    .value:nth-child(2) { background:#f8ebe4; }
+    .value-ico { width:57px; height:57px; display:grid; place-items:center; background:#f2e5de; border-radius:17px; margin-bottom:29px; color:var(--berry); }
+    .value:nth-child(2) .value-ico { background:#f1d9d0; }
+    .value-ico svg { width:31px; height:31px; fill:none; stroke:currentColor; stroke-width:1.45; stroke-linecap:round; stroke-linejoin:round; }
+    .value h3 { font:normal 24px/1.2 var(--serif); margin-bottom:13px; }
+    .value p { font-size:13px; line-height:1.8; color:#756363; margin:0; }
+    .flow-section { background:#f4e9e0; position:relative; overflow:hidden; }
+    .flow-section::before { content:'✳'; position:absolute; font-size:460px; opacity:.035; color:var(--berry); left:-115px; top:-115px; pointer-events:none; }
+    .split { display:grid; grid-template-columns:.8fr 1.2fr; gap:11%; align-items:start; }
+    .split .left-p { font-size:15px; line-height:1.95; color:#6c5c5d; max-width:365px; }
+    .step { display:grid; grid-template-columns:54px 1fr; gap:21px; align-items:start; padding:24px 0; border-bottom:1px solid #dbc8bd; }
+    .step:first-child { padding-top:4px; }
+    .step:last-child { border:0; }
+    .step-num { display:flex; align-items:center; justify-content:center; border:1px solid #ceb5aa; border-radius:50%; width:49px; height:49px; font:italic 19px var(--serif); color:var(--berry); background:#f8f0e9; }
+    .step h3 { font:normal 24px var(--serif); margin:0 0 8px; }
+    .step p { margin:0; font-size:14px; line-height:1.77; color:#745e5e; }
+    .no-screen { display:flex; gap:13px; align-items:flex-start; padding:22px; margin-top:22px; border-radius:16px; background:#f8f0e8; color:#674e51; }
+    .no-screen svg { flex-shrink:0; width:24px; height:24px; fill:none; stroke:var(--berry); stroke-width:1.5; }
+    .no-screen p { margin:0; font-size:13px; line-height:1.7; }
+    .events { background:var(--paper); }
+    .event-card { background:var(--berry); color:white; border-radius:24px; overflow:hidden; display:grid; grid-template-columns:1.1fr .9fr; box-shadow:0 17px 42px rgba(89,36,57,.14); }
+    .event-details { padding:59px 60px; }
+    .event-details .eyebrow { color:#efd0c6; }
+    .event-details h3 { font:normal clamp(2.25rem,4vw,3.6rem)/1.16 var(--serif); margin:0 0 20px; letter-spacing:-.02em; }
+    .event-details p { color:#f1e3e2; font-size:15px; line-height:1.9; max-width:450px; margin-bottom:29px; }
+    .event-details ul { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:12px 25px; }
+    .event-details li { font-size:12px; color:#fff4f0; display:flex; align-items:center; gap:8px; }
+    .event-details li svg { width:17px; height:17px; fill:none; stroke:#f6c9b8; stroke-width:1.6; }
+    .event-photo { display:grid; place-items:center; background:linear-gradient(140deg,rgba(91,42,59,.72),rgba(91,42,59,.18)),url('https://d2ol7oe51mr4n9.cloudfront.net/user_37QXsLEYBdKiB8iG8gU5HGV9RFV/3c093e51-5cfc-476b-8be3-fd4338f030f6.png') center/cover no-repeat; min-height:375px; padding:38px; position:relative; isolation:isolate; }
+    .event-photo::after { position:absolute; content:''; width:220px; height:220px; border:1px solid rgba(255,248,239,.44); border-radius:50%; z-index:-1; box-shadow:0 0 0 37px rgba(255,255,255,.06),0 0 0 80px rgba(255,255,255,.038); }
+    .event-inner { text-align:center; padding:26px; border:1px solid rgba(255,255,255,.58); background:rgba(255,249,240,.16); backdrop-filter:blur(6px); border-radius:16px; max-width:330px; width:100%; }
+    .event-inner .flower { font:normal 49px var(--serif); color:white; line-height:1; margin-bottom:10px; }
+    .event-inner em { font:italic 27px/1.3 var(--serif); display:block; color:white; }
+    .event-inner span { display:block; color:#fff9f3; font-size:10px; letter-spacing:.15em; text-transform:uppercase; margin-top:22px; }
+    .event-caption { display:flex; gap:12px; align-items:flex-start; padding:22px 26px; margin-top:20px; border:1px solid #e8d9d0; border-radius:14px; background:#fffbf5; font-size:13px; line-height:1.65; color:#695656; }
+    .event-caption svg { width:19px; height:19px; flex-shrink:0; fill:none; stroke:#956066; stroke-width:1.7; margin-top:2px; }
+    .about { background:#fffdf9; }
+    .about-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:9%; align-items:center; }
+    .about-visual { min-height:480px; border-radius:210px 210px 23px 23px; background:#f6e3d5; display:grid; align-items:center; justify-content:center; position:relative; overflow:hidden; }
+    .about-visual::before { content:''; position:absolute; width:320px; height:320px; border-radius:50%; background:#f0cdbb; left:-125px; top:-75px; }
+    .about-visual::after { content:''; position:absolute; width:390px; height:330px; border-radius:50%; background:#f2d8cb; right:-210px; bottom:-150px; }
+    .about-visual svg { width:min(80%,300px); position:relative; z-index:1; filter:drop-shadow(0 12px 9px rgba(109,58,68,.07)); }
+    .about-copy h2 { font:normal clamp(2.6rem,4.8vw,4.2rem)/1.13 var(--serif); letter-spacing:-.043em; margin-bottom:26px; }
+    .about-copy h2 em { color:var(--berry); font-weight:400; }
+    .about-copy p { font-size:15px; line-height:1.95; color:#716061; margin:0 0 18px; }
+    .about-copy .signature { font:italic 30px var(--serif); color:var(--berry); margin:26px 0 2px; }
+    .about-copy .small { font-size:11px; color:#947b75; letter-spacing:.11em; text-transform:uppercase; font-weight:700; }
+    .faq { background:#f8eee7; }
+    .faq-container { max-width:840px; }
+    .faq details { background:#fffcf7; border-radius:13px; margin:0 0 12px; padding:0 24px; border:1px solid #e9d9ce; }
+    .faq summary { font-weight:650; font-size:15px; list-style:none; padding:22px 32px 22px 0; cursor:pointer; position:relative; }
+    .faq summary::-webkit-details-marker { display:none; }
+    .faq summary::after { content:'+'; font:normal 24px var(--serif); position:absolute; right:0; top:17px; color:var(--berry); }
+    .faq details[open] summary::after { content:'−'; }
+    .faq details p { margin:0 0 21px; font-size:14px; color:#736162; line-height:1.82; max-width:680px; }
+    .bottom-cta { background:var(--paper); padding:94px 0; text-align:center; }
+    .bottom-cta h2 { font:italic normal clamp(2.65rem,5.5vw,4.5rem)/1.16 var(--serif); color:var(--berry); margin:0 0 22px; }
+    .bottom-cta p { font-size:15px; color:#766365; line-height:1.9; max-width:580px; margin:0 auto 30px; }
+    footer { background:#542938; color:#f7eae8; padding:52px 0 28px; }
+    .footer-grid { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:25px; padding-bottom:42px; }
+    .footer-brand { font:italic 34px var(--serif); line-height:1.2; }
+    .footer-tag { color:#e1c4c2; font-size:12px; margin-top:11px; line-height:1.7; }
+    .footer-note { max-width:320px; color:#e8d0cc; font-size:13px; line-height:1.7; }
+    .footer-bottom { border-top:1px solid rgba(255,255,255,.18); padding-top:20px; color:#e1c3c4; font-size:11px; display:flex; gap:15px; justify-content:space-between; flex-wrap:wrap; }
+    .scroll-top { color:#f7e8e5; text-decoration:underline; text-underline-offset:3px; }
+    .float-flower { position:absolute; z-index:-1; right:4%; top:17%; color:#eed9ca; font-size:100px; transform:rotate(10deg); pointer-events:none; }
+    .photo-essence {background:#fffdf9;padding:15px 0 110px;} .photo-grid {display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:8%;} .photo-illustration img {width:100%;height:455px;display:block;object-fit:cover;border-radius:17px;box-shadow:0 20px 50px rgba(76,35,49,.1)} .photo-illustration small {font-size:10px;color:#907c78;display:block;margin:10px 0;} .photo-words h2 {font:normal clamp(2.5rem,4.2vw,4rem)/1.16 Georgia,serif;letter-spacing:-.04em} .photo-words h2 em {color:var(--berry)} .photo-words p:not(.eyebrow) {color:#736365;line-height:1.9;font-size:15px} .photo-words .button {margin-top:15px}
+    @media (max-width:760px) {.photo-essence{padding:5px 0 70px}.photo-grid{grid-template-columns:1fr;gap:25px}.photo-illustration img{height:310px}.photo-words h2{font-size:42px}}
+    @media print {.photo-essence,#share-button{display:none!important}}
+    @media (max-width:1000px) { .hero-grid { gap:35px; } .art-frame { height:500px; } .hero h1 {font-size:clamp(3.1rem,6vw,4.4rem);} .art-stamp { right:-12px; } .art-note {left:-24px;} .nav-links { gap:20px;} }
+    @media (max-width:760px) { .container { width:min(100% - 36px,550px); } .preview-bar { font-size:10px; } .head-row { height:72px; } .brand-main { font-size:27px;} .brand-mark { width:38px;height:38px; } .nav-links { display:none; position:absolute; left:0; right:0; top:100%; padding:16px 25px 23px; background:#fffaf5; flex-direction:column; align-items:stretch; gap:0; border-bottom:1px solid #e6d4c9; box-shadow:0 17px 24px rgba(58,30,44,.07); } .nav-links.open { display:flex; } .nav-links a:not(.mini-button) { display:block; padding:14px 8px; font-size:14px; } .nav-links .mini-button { text-align:center; margin-top:12px; } .menu-toggle {display:grid; place-items:center;} .hero { padding:49px 0 75px; } .hero-grid {grid-template-columns:1fr; gap:45px;} .hero h1 { font-size:clamp(3.5rem,10vw,5rem); line-height:1.09; } .hero-lead {font-size:16px;line-height:1.82;} .art-frame { height:510px; width:90%; margin-inline:auto; border-width:9px; } .art-note {left:0;bottom:12px;transform:rotate(-3deg);} .art-stamp {right:3px;top:38px;} .statement {padding:70px 0;} .section {padding:78px 0;} .values,.split,.event-card,.about-grid {grid-template-columns:1fr;} .values {gap:14px;} .value {padding:28px;} .value-ico { margin-bottom:17px; } .split {gap:37px;} .section-head {margin-bottom:33px;} .event-details { padding:40px 30px 36px;} .event-photo { min-height:300px;} .about-grid {gap:47px;} .about-visual {min-height:380px;max-width:430px; width:100%;margin:auto;} .about-copy {text-align:left;} .bottom-cta {padding:70px 0;} .float-flower {display:none;} }
+    @media (max-width:420px) { .container { width:calc(100% - 30px); } .brand-main {font-size:24px;} .brand-sub{font-size:8px;} .hero h1 { font-size:clamp(3.2rem,12vw,4.5rem); } .kicker {font-size:10px;letter-spacing:.13em; } .art-frame{height:460px;} .art-stamp {width:87px;height:87px;font-size:12px;right:-3px;} .art-note {max-width:195px;padding:13px 17px;} .art-note span {font-size:17px;} .button { padding:15px 19px; font-size:12px; } .statement blockquote{font-size:2.1rem;} .step {grid-template-columns:45px 1fr;gap:13px;} .step-num{width:42px;height:42px;} .step h3{font-size:22px;} .event-details{padding:35px 24px;} .faq details {padding:0 18px;} }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .button {transition:none;} }
+    @media print { .preview-bar,.site-head,.actions,.bottom-cta,.faq,footer,.art-stamp,.art-note {display:none!important;} * {box-shadow:none!important;} .hero {padding-top:5mm;} .hero-grid,.values,.about-grid,.split {display:block;} .hero-right {display:none;} .hero h1 {font-size:44pt;} .hero-lead{font-size:12pt;} .section {padding:9mm 0;} .statement {padding:9mm 0;} .value {break-inside:avoid;margin-bottom:4mm;} .flow-section,.events,.about {background:white;} .event-card{display:block; color:#422b32;background:#fff;border:1px solid #ccc;} .event-photo {display:none;} .event-details {padding:7mm 10mm;} .event-details p,.event-details li,.event-details .eyebrow{color:#422b32;} .about-visual{display:none;} .about-copy p {font-size:12pt;} }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <div class="preview-bar">AVANT-PREMIÈRE SUR INVITATION <span>· Site de présentation · Informations à confirmer par Chloé</span></div>
+  <header class="site-head">
+    <div class="container head-row">
+      <a href="#accueil" class="brand" aria-label="Entre Elles, retour à l'accueil">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 30 30" fill="none"><path d="M15 25c0-9 0-13 0-20M15 16c-8-12-16-6-8 2 3 3 7 1 8-2Zm0-2c7-11 15-6 9 1-3 4-7 2-9-1Z" stroke="#84445A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 26h10" stroke="#84445A" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+        <span><span class="brand-main">Entre Elles</span><span class="brand-sub">AU FIL DES MOTS</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-button" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <nav class="nav-links" id="main-nav" aria-label="Navigation principale">
+        <a href="#esprit">L'esprit</a><a href="#deroulement">Les rencontres</a><a href="#chloe">À propos de Chloé</a><a href="#questions">Questions</a>
+        <a class="mini-button" href="#agenda">Dates à venir</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <span class="float-flower" aria-hidden="true">✻</span>
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">CERCLE DE PAROLE · CORNOL, JURA</p>
+          <h1 id="hero-title">Un lieu pour <em>se dire,</em><br>un temps pour <em>se retrouver.</em></h1>
+          <p class="hero-lead">Un espace de parole <strong>gratuit et bienveillant</strong>, ouvert aux femmes de tous horizons. Pour se rencontrer, s'écouter et partager, simplement, au fil des mots.</p>
+          <div class="tagline"><span class="tag">✦ PETIT COMITÉ</span><span class="tag">✦ UNE FOIS PAR MOIS</span><span class="tag">✦ SANS JUGEMENT</span></div>
+          <div class="actions">
+            <a class="button primary" href="#esprit">Découvrir le projet <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h13M11 5l5 5-5 5"/></svg></a>
+            <a class="button secondary" href="#deroulement">Comment ça se passe ?</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="art-frame" role="img" aria-label="Illustration originale de cinq femmes réunies sur une colline au coucher du soleil, sous les branches d'un arbre">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 650" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8e1c9"/><stop offset=".46" stop-color="#efb29b"/><stop offset=".83" stop-color="#d9998b"/><stop offset="1" stop-color="#92736f"/></linearGradient>
+                <radialGradient id="glow" cx="51%" cy="43%" r="53%"><stop stop-color="#ffe9b7" stop-opacity=".94"/><stop offset=".5" stop-color="#ffe0b5" stop-opacity=".43"/><stop offset="1" stop-color="#ffe3b5" stop-opacity="0"/></radialGradient>
+                <linearGradient id="hill1" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#a68d84"/><stop offset="1" stop-color="#756b6d"/></linearGradient>
+                <linearGradient id="hill2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d0a48e"/><stop offset="1" stop-color="#966d71"/></linearGradient>
+              </defs>
+              <rect width="520" height="650" fill="url(#sky)"/><rect width="520" height="650" fill="url(#glow)"/>
+              <circle cx="271" cy="265" r="67" fill="#ffe3ac" opacity=".88"/>
+              <path d="M0 440C95 393 181 412 287 425c90 12 180-35 233-56v281H0Z" fill="#c9a78f" opacity=".66"/>
+              <path d="M0 484c95-62 166-42 245-19s158-27 275-39v224H0Z" fill="url(#hill2)"/>
+              <path d="M0 531c128-51 189-3 293-23 100-18 156-56 227-45v187H0Z" fill="url(#hill1)"/>
+              <path d="M0 562c115-16 205 26 324 4s166-20 196-12v96H0Z" fill="#786f6b" opacity=".57"/>
+              <!-- overhead tree -->
+              <path d="M-25 678C-14 524 5 386 53 290c23-46 47-70 53-161 5-47-12-91-30-145" stroke="#563d35" stroke-width="50" fill="none" stroke-linecap="round"/>
+              <path d="M45 260C67 163 158 100 266 69M71 180C125 88 178 51 312 13M82 113C100 46 149 20 209-16M6 368c20-121 90-180 180-214" stroke="#624237" stroke-width="21" fill="none" stroke-linecap="round"/>
+              <path d="M75 266C109 161 158 137 229 121M70 128C103 96 155 72 225 84M121 125C164 65 235 38 338 52" stroke="#6d4a39" stroke-width="8" fill="none" stroke-linecap="round"/>
+              <g fill="#8b6a43" opacity=".92">
+                <ellipse cx="65" cy="47" rx="35" ry="15" transform="rotate(43 65 47)"/><ellipse cx="114" cy="52" rx="36" ry="15" transform="rotate(-25 114 52)"/><ellipse cx="159" cy="38" rx="35" ry="16" transform="rotate(43 159 38)"/><ellipse cx="215" cy="36" rx="35" ry="16" transform="rotate(-30 215 36)"/><ellipse cx="276" cy="30" rx="42" ry="16" transform="rotate(26 276 30)"/>
+                <ellipse cx="33" cy="92" rx="34" ry="16" transform="rotate(-43 33 92)"/><ellipse cx="107" cy="100" rx="41" ry="18" transform="rotate(33 107 100)"/><ellipse cx="171" cy="103" rx="39" ry="18" transform="rotate(-36 171 103)"/><ellipse cx="243" cy="80" rx="42" ry="17" transform="rotate(17 243 80)"/><ellipse cx="302" cy="67" rx="36" ry="16" transform="rotate(-28 302 67)"/>
+                <ellipse cx="47" cy="160" rx="32" ry="15" transform="rotate(34 47 160)"/><ellipse cx="112" cy="154" rx="34" ry="15" transform="rotate(-26 112 154)"/><ellipse cx="180" cy="156" rx="39" ry="17" transform="rotate(30 180 156)"/><ellipse cx="229" cy="126" rx="33" ry="14" transform="rotate(-33 229 126)"/><ellipse cx="70" cy="211" rx="34" ry="13" transform="rotate(26 70 211)"/>
+              </g>
+              <g fill="#d4a760" opacity=".72"><ellipse cx="143" cy="73" rx="31" ry="13" transform="rotate(42 143 73)"/><ellipse cx="207" cy="88" rx="32" ry="13" transform="rotate(-35 207 88)"/><ellipse cx="47" cy="116" rx="29" ry="14" transform="rotate(43 47 116)"/><ellipse cx="265" cy="68" rx="26" ry="11" transform="rotate(-30 265 68)"/><ellipse cx="142" cy="141" rx="28" ry="12" transform="rotate(34 142 141)"/></g>
+              <!-- group of five women from behind: calm silhouette illustration -->
+              <g>
+                <path d="M39 581c-4-49 1-85 19-106 12-13 33-14 46-2 24 20 27 62 28 116l-2 61H26Z" fill="#d5bbb0"/>
+                <path d="M67 469c-14-7-18-31-9-45 8-14 34-14 43 1 8 13 2 39-12 45Z" fill="#d3a48a"/>
+                <path d="M54 446c-8-8-5-27 5-37 9-10 32-15 41-3 5 8 4 14-4 20-6-12-24-5-24 3-8-2-5 9-18 17Z" fill="#836046"/>
+                <path d="M91 579c-1-46 8-90 34-111 15-14 38-12 55 2 20 17 29 71 34 120l1 60H93Z" fill="#8f534e"/>
+                <path d="M132 472c-16-13-17-37-7-49 12-14 34-13 46 0 11 15 7 43-7 51Z" fill="#d7a98f"/>
+                <path d="M126 463c-20-21-11-48 5-56 18-9 42 2 47 27 5 16 2 32 11 49-14-3-22-19-25-32-12 8-18 9-21-2-6 9-8 11-17 14Z" fill="#66443e"/>
+                <path d="M188 585c-2-55 13-105 35-117 16-11 40-8 55 5 22 23 28 65 34 121l-1 56H185Z" fill="#cf8b69"/>
+                <path d="M228 472c-14-10-17-33-8-47 11-17 37-17 47-2 9 13 7 41-8 49Z" fill="#d8af93"/>
+                <path d="M214 480c-13-13-12-52-2-69 17-29 55-24 65 3 7 21 0 53 13 73-17-3-26-19-30-37-6-12-22-20-30-7-6 20-7 28-16 37Z" fill="#9d7651"/>
+                <path d="M290 582c4-55 12-95 38-111 17-10 36-9 49 3 21 18 30 59 31 113l1 63H290Z" fill="#b6aaa5"/>
+                <path d="M331 468c-14-14-12-34-3-45 9-13 32-15 41 0 11 16 6 37-8 46Z" fill="#c89b83"/>
+                <path d="M320 452c-11-14-4-31 3-41 11-15 34-17 46-3 10 12 6 20 3 28-7-4-10-14-22-11-8 2-9 15-21 13l-9 14Z" fill="#57433f"/>
+                <path d="M386 588c0-51 6-90 27-106 17-13 38-16 55-3 22 18 32 57 35 109l5 62H387Z" fill="#ad7668"/>
+                <path d="M421 479c-13-15-14-33-5-46 10-14 37-13 44 0 9 17 3 34-13 45Z" fill="#cda088"/>
+                <path d="M414 460c-18-12-19-30-12-46 6-15 25-25 39-17 11-6 27 8 28 21 9 18 1 42 17 55-11 6-22-8-29-16-3 16-23 14-24 0-5 13-16 17-23 10l4-7Z" fill="#533b36"/>
+                <!-- linked arms softly connect shoulders -->
+                <path d="M105 512c18 12 22 29 34 26 17-4 23-27 42-28" stroke="#b98f7c" stroke-width="17" fill="none" stroke-linecap="round"/>
+                <path d="M185 529c15 18 28 12 38 1" stroke="#ca9480" stroke-width="13" fill="none" stroke-linecap="round"/>
+                <path d="M283 526c14 16 26 18 42 7" stroke="#ae8175" stroke-width="14" fill="none" stroke-linecap="round"/>
+                <path d="M383 521c8 13 20 19 32 13" stroke="#a3837b" stroke-width="15" fill="none" stroke-linecap="round"/>
+              </g>
+              <path d="M0 614c140-30 253-2 368-7 53-3 99-14 152-8v51H0Z" fill="#5f655d" opacity=".32"/>
+              <g fill="#ecd1a4" opacity=".72"><circle cx="18" cy="610" r="3"/><circle cx="59" cy="622" r="4"/><circle cx="350" cy="615" r="3"/><circle cx="488" cy="603" r="3"/></g>
+            </svg>
+          </div>
+          <div class="art-note"><span>Au fil des mots...</span><small>Un moment pour soi, ensemble.</small></div>
+          <div class="art-stamp">Chaque histoire compte.</div>
+        </div>
+      </div>
+    </section>
+    <section class="statement" id="esprit" aria-labelledby="statement-title">
+      <div class="container statement-inner">
+        <div class="eyebrow">L'ESPRIT D'ENTRE ELLES</div>
+        <blockquote id="statement-title">« Parce que chaque femme a une histoire, et que chaque histoire mérite d'être entendue. »</blockquote>
+        <p>Ici, il n'y a pas de bonne façon de s'exprimer. Chacune est accueillie telle qu'elle est, libre de parler, d'écouter ou simplement d'être présente.</p>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="values-title">
+      <div class="container">
+        <div class="section-head"><div class="eyebrow">CE QUI NOUS RASSEMBLE</div><h2 id="values-title">Des mots, de l'écoute, <em>des liens.</em></h2><p>Un cercle à taille humaine pour faire une pause dans le quotidien et retrouver le plaisir d'échanger, sans attentes ni jugement.</p></div>
+        <div class="values">
+          <article class="value"><div class="value-ico"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 27S4 20 4 12c0-3.6 2.6-6.1 6-6.1 2.5 0 4.5 1.2 6 3.4 1.6-2.2 3.6-3.4 6-3.4 3.5 0 6 2.5 6 6.1 0 8-12 15-12 15Z"/></svg></div><h3>Venir comme on est</h3><p>Pas besoin de se préparer, d'avoir les bons mots ou de raconter quoi que ce soit. La simple présence a sa place.</p></article>
+          <article class="value"><div class="value-ico"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 9c0-3.5 4.3-5.3 10-5.3S26 5.5 26 9v10c0 3.5-4.3 5.3-10 5.3-1.1 0-2.2-.1-3.2-.3L6 29v-8.3C6 20.2 6 19.6 6 19V9Z"/><path d="M11 11h10M11 16h7"/></svg></div><h3>Parler ou écouter</h3><p>Prendre la parole est une possibilité, jamais une obligation. Chacune avance à son rythme, à sa manière.</p></article>
+          <article class="value"><div class="value-ico"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28c-5-3.2-10-7.8-10-14A10 10 0 0 1 26 14c0 6.2-5 10.8-10 14Z"/><path d="M12 14c0 2.2 1.9 4 4 4s4-1.8 4-4M13 11h0M19 11h0"/></svg></div><h3>Sans jugement</h3><p>Un espace de respect et de bienveillance. On accueille les histoires des autres sans les comparer ni les commenter.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="photo-essence" aria-labelledby="essence-title"><div class="container photo-grid"><div class="photo-illustration"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_37QXsLEYBdKiB8iG8gU5HGV9RFV/f9d8d9a3-2d95-4285-b8e2-0d342a91982d.png" alt="Illustration d'ambiance : cinq femmes discutent ensemble sous un arbre au coucher du soleil" loading="lazy" width="1350" height="760" /><small>Photographie d'ambiance générée pour cette présentation, sans participantes réelles.</small></div><div class="photo-words"><p class="eyebrow">LE SENS DE LA RENCONTRE</p><h2 id="essence-title">Des mots simples. <em>Des échanges vrais.</em></h2><p>Il suffit parfois d'un moment pour faire connaissance, s'écouter et créer du lien. Un espace pour être soi, sans pression, ni obligation de raconter son histoire.</p><a class="button secondary" href="#deroulement">Découvrir les ateliers ↗</a></div></div></section>
+    <section class="section flow-section" id="deroulement" aria-labelledby="flow-title">
+      <div class="container split">
+        <div><div class="eyebrow">UN MOMENT À PARTAGER</div><h2 id="flow-title">Comment se déroule <em>une rencontre ?</em></h2><p class="left-p">Des ateliers autour de l'expression, pensés pour faire connaissance, échanger des expériences et créer des liens dans une atmosphère simple et chaleureuse.</p><div class="no-screen"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M4 4 20 20M10 18h4"/></svg><p><strong>Le temps d'une rencontre, on laisse les écrans de côté.</strong> Juste des personnes, des mots, de l'écoute et du partage.</p></div></div>
+        <div><div class="step"><div class="step-num">01</div><div><h3>Se rencontrer</h3><p>Un premier moment pour faire connaissance, prendre ses marques et se sentir accueillie.</p></div></div><div class="step"><div class="step-num">02</div><div><h3>S'exprimer à son rythme</h3><p>Un thème ou un petit atelier ouvre la discussion. Chacune participe librement, sans pression.</p></div></div><div class="step"><div class="step-num">03</div><div><h3>Échanger et partager</h3><p>Des expériences, des ressentis, des points de vue. Et surtout la possibilité de s'écouter vraiment.</p></div></div></div>
+      </div>
+    </section>
+    <section class="section events" id="agenda" aria-labelledby="agenda-title">
+      <div class="container"><div class="section-head"><div class="eyebrow">EN PRÉPARATION</div><h2 id="agenda-title">Les prochaines <em>rencontres.</em></h2><p>Le projet se prépare pour le début de l'année 2027. Les premières dates et les modalités pratiques seront communiquées par Chloé lorsqu'elles seront définies.</p></div>
+        <div class="event-card"><div class="event-details"><div class="eyebrow">LE RENDEZ-VOUS</div><h3>Un petit comité.<br>De grandes conversations.</h3><p>Un moment pour faire connaissance, s'écouter, s'exprimer et partager ses expériences, dans la douceur et le respect de chacune.</p><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v15H4zM8 3v6M16 3v6M4 11h16"/></svg>Une fois par mois</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22S4 15.9 4 9a8 8 0 1 1 16 0c0 6.9-8 13-8 13Z"/><circle cx="12" cy="9" r="2"/></svg>À Cornol (JU)</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9 9.5h5.5c2.5 0 2.5 3.5 0 3.5H9"/></svg>Gratuit</li></ul></div><div class="event-photo"><div class="event-inner"><div class="flower" aria-hidden="true">✿</div><em>Les belles rencontres commencent parfois par quelques mots.</em><span>DATES À VENIR · DÉBUT 2027</span></div></div></div>
+        <div class="event-caption"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.2h.01"/></svg><div><strong>Les inscriptions ne sont pas encore ouvertes.</strong> Cette maquette ne contient ni formulaire ni collecte de données : les rencontres et leurs modalités restent entièrement entre les mains de Chloé.</div></div>
+      </div>
+    </section>
+    <section class="section about" id="chloe" aria-labelledby="about-title"><div class="container about-grid"><div class="about-visual" aria-hidden="true"><svg viewBox="0 0 330 420" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M163 358C174 290 155 254 144 215c-8-30-3-59 15-78" stroke="#744759" stroke-width="4" stroke-linecap="round"/><path d="M154 249c-42-31-66-28-90-23M159 285c53-28 79-23 102-7M144 209c-33-37-30-74-26-92" stroke="#744759" stroke-width="3" stroke-linecap="round"/><path d="M159 135c-51-24-57-79-26-96 36-20 63 28 26 96ZM162 140c25-56 76-56 91-20 15 36-45 61-91 20ZM154 143c-56 6-85 45-65 73 23 31 59-15 65-73ZM165 139c19 55 58 66 80 45 30-28-13-63-80-45Z" fill="#ca938e"/><circle cx="160" cy="140" r="18" fill="#f7e0d2"/><path d="M116 122c-26-40-51-41-67-32 0 39 26 52 67 32ZM187 130c27-38 52-40 70-31-3 35-28 45-70 31ZM142 200c-23-27-47-32-60-26 1 27 27 38 60 26Z" fill="#a77e72" opacity=".79"/><path d="M161 360c-26-26-44-50-67-49M163 360c26-26 55-50 82-46" stroke="#744759" stroke-width="3" stroke-linecap="round"/><path d="M77 320c-5-45-39-59-54-48 4 38 24 49 54 48ZM263 325c21-42 42-44 58-30-19 34-39 37-58 30ZM139 281c-46-27-61-19-67-5 30 23 51 18 67 5ZM181 312c38-31 56-29 66-15-25 28-43 28-66 15Z" fill="#b2a58d"/><path d="M88 363c48-12 104-12 152 0v12c-45 14-103 15-152 0v-12Z" fill="#ceac9d"/><path d="M88 375c21 10 44 10 68 12M240 375c-20 10-44 10-67 12" stroke="#a77e72" stroke-width="2"/></svg></div><div class="about-copy"><div class="eyebrow">À L'ORIGINE DU PROJET</div><h2 id="about-title">Un projet porté <em>par Chloé.</em></h2><p>Éducatrice spécialisée, Chloé imagine « Entre Elles – Au fil des mots » comme un espace de rencontre où les femmes peuvent faire connaissance, s'exprimer, échanger des expériences et s'écouter.</p><p>Son intention est simple : privilégier les relations humaines, sans technologie pendant les ateliers, pour laisser toute la place à la présence, à l'authenticité et au partage.</p><p>Chaque rencontre est un moment de vie à part entière, sans performance à atteindre et sans parole imposée.</p><div class="signature">Au fil des mots...</div><div class="small">AVEC CHLOÉ · À CORNOL</div></div></div></section>
+    <section class="section faq" id="questions" aria-labelledby="faq-title"><div class="container faq-container"><div class="section-head"><div class="eyebrow">EN TOUTE SIMPLICITÉ</div><h2 id="faq-title">Quelques <em>questions.</em></h2></div>
+      <details><summary>Dois-je prendre la parole pendant la rencontre ?</summary><p>Non. Chacune participe à son rythme. Écouter, observer et simplement être là font aussi partie de l'expérience.</p></details>
+      <details><summary>Est-ce que ces rencontres sont gratuites ?</summary><p>Oui. Le projet présenté par Chloé prévoit un espace de parole gratuit et bienveillant.</p></details>
+      <details><summary>Où et quand se dérouleront les rencontres ?</summary><p>Le projet prévoit des rencontres en petit comité, à Cornol, environ une fois par mois. Les premières dates restent à confirmer pour le début de l'année 2027.</p></details>
+      <details><summary>Est-ce que je peux venir seule ?</summary><p>Oui, le but est justement de faire connaissance et de créer des liens. Aucun groupe d'amies n'est nécessaire pour participer.</p></details>
+      <details><summary>La confidentialité est-elle importante ?</summary><p>Oui. L'écoute, le respect de la vie privée et la discrétion sont des valeurs essentielles à définir ensemble dans une charte de rencontre. Une participante ne doit jamais être obligée de raconter une expérience personnelle.</p></details>
+      <details><summary>S'agit-il d'une thérapie ou d'un suivi professionnel ?</summary><p>Non. Ce projet est présenté comme un espace d'expression et d'échanges entre femmes, et non comme une consultation thérapeutique ou médicale.</p></details>
+    </div></section>
+    <section class="bottom-cta" aria-labelledby="closing-title"><div class="container"><div class="tiny-rule" aria-hidden="true">✻</div><h2 id="closing-title">Et si tout commençait<br>par quelques mots ?</h2><p>Prendre le temps de se rencontrer, de partager, d'écouter. Tout simplement. Les rencontres d'« Entre Elles » sont en préparation.</p><button class="button secondary" type="button" id="print-button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 7V2h10v5M5 14H3V8h14v6h-2M5 12h10v6H5z"/></svg>Imprimer cette présentation</button><button class="button primary" type="button" id="share-button">Partager cette page ↗</button></div></section>
+  </main>
+  <footer><div class="container"><div class="footer-grid"><div><div class="footer-brand">Entre Elles ♡</div><div class="footer-tag">Au fil des mots...<br>Un espace de parole à Cornol, Jura.</div></div><p class="footer-note">Chaque histoire mérite d'être entendue.<br>Un projet humain, des rencontres simples, et la joie de se retrouver.</p></div><div class="footer-bottom"><span>Avant-première sur invitation · Novembre 2026 · Projet non lancé</span><a class="scroll-top" href="#accueil">Retour en haut ↑</a></div></div></footer>
+  <script>
+    (() => {
+      const menuButton = document.getElementById('menu-button');
+      const nav = document.getElementById('main-nav');
+      menuButton.addEventListener('click', () => {
+        const open = nav.classList.toggle('open');
+        menuButton.setAttribute('aria-expanded', String(open));
+        menuButton.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+      });
+      nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.setAttribute('aria-label', 'Ouvrir le menu');
+      }));
+      document.addEventListener('keydown', ev => {
+        if (ev.key === 'Escape') {
+          nav.classList.remove('open');
+          menuButton.setAttribute('aria-expanded', 'false');
+          menuButton.setAttribute('aria-label', 'Ouvrir le menu');
+        }
+      });
+      document.getElementById('print-button').addEventListener('click', () => window.print());
+      const shareButton = document.getElementById('share-button');
+      shareButton.addEventListener('click', async () => {
+        const url = location.href;
+        if (navigator.share) { try { await navigator.share({title:'Entre Elles · Au fil des mots',url});return; } catch (e) { if (e && e.name === 'AbortError') return; } }
+        try { await navigator.clipboard.writeText(url);shareButton.textContent='Lien copié ✓';setTimeout(() => shareButton.textContent='Partager cette page ↗',2000); } catch {window.prompt('Copier le lien :',url);}
+      });
+    })();
+  </script>
+</body>
+</html>
